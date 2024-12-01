@@ -224,11 +224,13 @@ avrdude -c usbasp -p t45 -B 32 -U flash:w:blink_test.hex:i
    - Upload the sketch to the Arduino Mega.
 
 3. **Flash USBasp Using SinaProg**:
+   - Short USBasp JP2 jumper (enter USBasp programmingmode).
    - Open **SinaProg 2.1.1**.
    - Select **USBASP11.hex** firmware.
    - Set Programmer: **Arduino as ISP**.
    - Set Target: **USBasp**.
    - Click **Write Flash**.
+   - Unshort USBasp JP2 jumper.
 
 ---
 
